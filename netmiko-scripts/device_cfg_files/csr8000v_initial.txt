@@ -1,0 +1,20 @@
+interface GigabitEthernet1
+ description MANAGEMENT INTERFACE - DON'T TOUCH ME
+ ip address 10.10.20.148 255.255.255.0
+ negotiation auto
+end
+
+interface GigabitEthernet2
+ description Port to Fabric
+ no ip address
+ negotiation auto
+ ipv6 address FE80::1 link-local
+ ipv6 address autoconfig
+end
+
+interface GigabitEthernet3
+ description Network Interface
+ no ip address
+ shutdown
+ negotiation auto
+end
