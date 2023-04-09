@@ -13,4 +13,5 @@ python -m venv folder-name
 
 ## Topics
 
+- ansible (ansible 2.9.26)
 - netmiko-scritps (configure network devices with python netmiko library)
